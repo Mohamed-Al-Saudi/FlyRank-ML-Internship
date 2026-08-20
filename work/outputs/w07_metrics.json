@@ -1,0 +1,20 @@
+{
+  "model": "RandomForest 200 trees max_depth 8",
+  "split": "GroupShuffleSplit by client_id test_size 0.2 overlap 0",
+  "train_n": 23036,
+  "test_n": 5759,
+  "base_down_rate": 0.5644729987845112,
+  "auc_grouped": 0.642,
+  "p20_grouped": 0.9,
+  "p20_baseline": 0.65,
+  "zero_ctr_rate": 0.41722521271054,
+  "median_impressions": 828.0,
+  "reason_codes": {
+    "LOW_CTR_OPPORTUNITY": 10495,
+    "FRESH_LOW_RISK": 9553,
+    "STALE_VISIBLE": 4909,
+    "VISIBLE_STRIKING": 3260,
+    "STALE_VISIBLE_STRIKING": 564,
+    "ENGAGED_BUT_STALE": 14
+  }
+}
